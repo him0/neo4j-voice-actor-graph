@@ -1,0 +1,82 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activemodel (5.0.0.1)
+      activesupport (= 5.0.0.1)
+    activesupport (5.0.0.1)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (~> 0.7)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+    byebug (9.0.5)
+    coderay (1.1.1)
+    colored (1.2)
+    concurrent-ruby (1.0.2)
+    faraday (0.9.2)
+      multipart-post (>= 1.2, < 3)
+    faraday_middleware (0.10.0)
+      faraday (>= 0.7.4, < 0.10)
+    faraday_middleware-multi_json (0.0.6)
+      faraday_middleware
+      multi_json
+    httparty (0.14.0)
+      multi_xml (>= 0.5.2)
+    httpclient (2.8.2.3)
+    i18n (0.7.0)
+    json (2.0.2)
+    method_source (0.8.2)
+    minitest (5.9.0)
+    multi_json (1.12.1)
+    multi_xml (0.5.5)
+    multipart-post (2.0.0)
+    neo4j (7.2.0)
+      activemodel (>= 4.0, < 5.1)
+      activesupport (>= 4.0, < 5.1)
+      neo4j-core (>= 6.0.0, < 7.0.0)
+      orm_adapter (~> 0.5.0)
+    neo4j-core (6.1.4)
+      activesupport
+      faraday (~> 0.9.0)
+      faraday_middleware (~> 0.10.0)
+      faraday_middleware-multi_json
+      httparty
+      httpclient
+      json
+      multi_json
+      neo4j-rake_tasks (>= 0.3.0)
+      net-http-persistent
+    neo4j-rake_tasks (0.7.3)
+      colored
+      os
+      rake
+      ruby-progressbar
+      rubyzip (>= 1.1.7)
+    net-http-persistent (2.9.4)
+    orm_adapter (0.5.0)
+    os (0.9.6)
+    pry (0.10.4)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    pry-byebug (3.4.0)
+      byebug (~> 9.0)
+      pry (~> 0.10)
+    rake (11.2.2)
+    ruby-progressbar (1.8.1)
+    rubyzip (1.2.0)
+    slop (3.6.0)
+    thread_safe (0.3.5)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  neo4j
+  pry
+  pry-byebug
+  rake
+
+BUNDLED WITH
+   1.12.5
